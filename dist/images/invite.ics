@@ -1,0 +1,64 @@
+BEGIN:VCALENDAR
+METHOD:REQUEST
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:India Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T000000
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN="Heda, Shruthi":mailto:Shruthi.Heda@arcesium.com
+DESCRIPTION;LANGUAGE=en-US:You are scheduled for a coding interview using H
+ ackerRank Interview.\n\nAccess your interview session via this link: https
+ ://hr.gs/b0e7695\n\n\n\n\n________________________________\n\nThis message
+  may contain confidential information protected by law. The contents of th
+ is email are to be viewed only by the intended recipient. If you received 
+ this message in error\, notify the sender immediately and delete the origi
+ nal message without printing. Product descriptions\, pricing and similar c
+ ontent is for information only and does not constitute an offer\, warranty
+  or guarantee. Contracts with Arcesium are formed only by written document
+ s bearing the signature of its authorized representative.\n\n
+UID:040000008200E00074C5B7101A82E008000000004F3E439859B2D801000000000000000
+ 010000000A19BED867714664FAF362955E997B88A
+SUMMARY;LANGUAGE=en-US:Anmol Khandelwal | Round 1
+DTSTART;TZID=India Standard Time:20220818T100000
+DTEND;TZID=India Standard Time:20220818T104500
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20220817T165128Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION;LANGUAGE=en-US:HackerRank Interview Link: https://hr.gs/b0e7695
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-OWNERAPPTID:2120780623
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-LOCATIONDISPLAYNAME:HackerRank Interview Link: https://hr.gs/b0
+ e7695
+X-MICROSOFT-LOCATIONSOURCE:None
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"HackerRank Interview Link: https://h
+ r.gs/b0e7695"\,"LocationAnnotation":""\,"LocationUri":""\,"LocationStreet"
+ :""\,"LocationCity":""\,"LocationState":""\,"LocationCountry":""\,"Locatio
+ nPostalCode":""\,"LocationFullAddress":""}]
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR
